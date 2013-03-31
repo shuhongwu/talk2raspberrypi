@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA7F740117082B3700304E53 /* IMG_1218.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7F740017082B3700304E53 /* IMG_1218.png */; };
+		FA7F740317082B3D00304E53 /* IMG_1218 2.png in Resources */ = {isa = PBXBuildFile; fileRef = FA7F740217082B3D00304E53 /* IMG_1218 2.png */; };
+		FACF4907170730C9001DF474 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACF4906170730C9001DF474 /* UIKit.framework */; };
+		FACF4909170730C9001DF474 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACF4908170730C9001DF474 /* Foundation.framework */; };
+		FACF490B170730C9001DF474 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACF490A170730C9001DF474 /* CoreGraphics.framework */; };
+		FACF4911170730C9001DF474 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FACF490F170730C9001DF474 /* InfoPlist.strings */; };
+		FACF4913170730C9001DF474 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF4912170730C9001DF474 /* main.m */; };
+		FACF4917170730C9001DF474 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF4916170730C9001DF474 /* AppDelegate.m */; };
+		FACF4919170730C9001DF474 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FACF4918170730C9001DF474 /* Default.png */; };
+		FACF491B170730C9001DF474 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACF491A170730C9001DF474 /* Default@2x.png */; };
+		FACF491D170730C9001DF474 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FACF491C170730C9001DF474 /* Default-568h@2x.png */; };
+		FACF4920170730C9001DF474 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF491F170730C9001DF474 /* ViewController.m */; };
+		FACF4923170730C9001DF474 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FACF4921170730C9001DF474 /* ViewController.xib */; };
+		FACF49AD17073AA5001DF474 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FACF49AC17073AA5001DF474 /* libxml2.dylib */; };
+		FACF49C317073BE1001DF474 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF49B017073BE1001DF474 /* ASIAuthenticationDialog.m */; };
+		FACF49C417073BE1001DF474 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF49B317073BE1001DF474 /* ASIDataCompressor.m */; };
+		FACF49C517073BE1001DF474 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF49B517073BE1001DF474 /* ASIDataDecompressor.m */; };
+		FACF49C617073BE1001DF474 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF49B717073BE1001DF474 /* ASIDownloadCache.m */; };
+		FACF49C717073BE1001DF474 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF49B917073BE1001DF474 /* ASIFormDataRequest.m */; };
+		FACF49C817073BE1001DF474 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF49BB17073BE1001DF474 /* ASIHTTPRequest.m */; };
+		FACF49C917073BE1001DF474 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF49BF17073BE1001DF474 /* ASIInputStream.m */; };
+		FACF49CA17073BE1001DF474 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF49C117073BE1001DF474 /* ASINetworkQueue.m */; };
+		FACF49CD17073C0E001DF474 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FACF49CC17073C0E001DF474 /* Reachability.m */; };
+		FACF49CF17073E07001DF474 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACF49CE17073E07001DF474 /* CFNetwork.framework */; };
+		FACF49D117073E11001DF474 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACF49D017073E11001DF474 /* SystemConfiguration.framework */; };
+		FACF49D317073E19001DF474 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACF49D217073E19001DF474 /* MobileCoreServices.framework */; };
+		FACF49D517073E57001DF474 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FACF49D417073E57001DF474 /* libz.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA7F740017082B3700304E53 /* IMG_1218.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_1218.png; sourceTree = "<group>"; };
+		FA7F740217082B3D00304E53 /* IMG_1218 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_1218 2.png"; sourceTree = "<group>"; };
+		FACF4903170730C9001DF474 /* TalkToRaspberryPi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkToRaspberryPi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACF4906170730C9001DF474 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FACF4908170730C9001DF474 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FACF490A170730C9001DF474 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FACF490E170730C9001DF474 /* TalkToRaspberryPi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TalkToRaspberryPi-Info.plist"; sourceTree = "<group>"; };
+		FACF4910170730C9001DF474 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FACF4912170730C9001DF474 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FACF4914170730C9001DF474 /* TalkToRaspberryPi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TalkToRaspberryPi-Prefix.pch"; sourceTree = "<group>"; };
+		FACF4915170730C9001DF474 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FACF4916170730C9001DF474 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FACF4918170730C9001DF474 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FACF491A170730C9001DF474 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FACF491C170730C9001DF474 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FACF491E170730C9001DF474 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FACF491F170730C9001DF474 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FACF4922170730C9001DF474 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FACF49AC17073AA5001DF474 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		FACF49AF17073BE1001DF474 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		FACF49B017073BE1001DF474 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		FACF49B117073BE1001DF474 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		FACF49B217073BE1001DF474 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		FACF49B317073BE1001DF474 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		FACF49B417073BE1001DF474 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		FACF49B517073BE1001DF474 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		FACF49B617073BE1001DF474 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		FACF49B717073BE1001DF474 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		FACF49B817073BE1001DF474 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		FACF49B917073BE1001DF474 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		FACF49BA17073BE1001DF474 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		FACF49BB17073BE1001DF474 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		FACF49BC17073BE1001DF474 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		FACF49BD17073BE1001DF474 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		FACF49BE17073BE1001DF474 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		FACF49BF17073BE1001DF474 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		FACF49C017073BE1001DF474 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		FACF49C117073BE1001DF474 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		FACF49C217073BE1001DF474 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		FACF49CB17073C0E001DF474 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		FACF49CC17073C0E001DF474 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		FACF49CE17073E07001DF474 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FACF49D017073E11001DF474 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FACF49D217073E19001DF474 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FACF49D417073E57001DF474 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACF4900170730C9001DF474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACF49D517073E57001DF474 /* libz.dylib in Frameworks */,
+				FACF490B170730C9001DF474 /* CoreGraphics.framework in Frameworks */,
+				FACF49D317073E19001DF474 /* MobileCoreServices.framework in Frameworks */,
+				FACF49D117073E11001DF474 /* SystemConfiguration.framework in Frameworks */,
+				FACF49CF17073E07001DF474 /* CFNetwork.framework in Frameworks */,
+				FACF49AD17073AA5001DF474 /* libxml2.dylib in Frameworks */,
+				FACF4907170730C9001DF474 /* UIKit.framework in Frameworks */,
+				FACF4909170730C9001DF474 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FACF48FA170730C9001DF474 = {
+			isa = PBXGroup;
+			children = (
+				FA7F740217082B3D00304E53 /* IMG_1218 2.png */,
+				FA7F740017082B3700304E53 /* IMG_1218.png */,
+				FACF490C170730C9001DF474 /* TalkToRaspberryPi */,
+				FACF4905170730C9001DF474 /* Frameworks */,
+				FACF4904170730C9001DF474 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FACF4904170730C9001DF474 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACF4903170730C9001DF474 /* TalkToRaspberryPi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACF4905170730C9001DF474 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FACF49D417073E57001DF474 /* libz.dylib */,
+				FACF49D217073E19001DF474 /* MobileCoreServices.framework */,
+				FACF49D017073E11001DF474 /* SystemConfiguration.framework */,
+				FACF49CE17073E07001DF474 /* CFNetwork.framework */,
+				FACF49AC17073AA5001DF474 /* libxml2.dylib */,
+				FACF4906170730C9001DF474 /* UIKit.framework */,
+				FACF4908170730C9001DF474 /* Foundation.framework */,
+				FACF490A170730C9001DF474 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FACF490C170730C9001DF474 /* TalkToRaspberryPi */ = {
+			isa = PBXGroup;
+			children = (
+				FACF49AE17073BE1001DF474 /* ASIHttpRequest */,
+				FACF4915170730C9001DF474 /* AppDelegate.h */,
+				FACF4916170730C9001DF474 /* AppDelegate.m */,
+				FACF491E170730C9001DF474 /* ViewController.h */,
+				FACF491F170730C9001DF474 /* ViewController.m */,
+				FACF4921170730C9001DF474 /* ViewController.xib */,
+				FACF490D170730C9001DF474 /* Supporting Files */,
+			);
+			path = TalkToRaspberryPi;
+			sourceTree = "<group>";
+		};
+		FACF490D170730C9001DF474 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FACF490E170730C9001DF474 /* TalkToRaspberryPi-Info.plist */,
+				FACF490F170730C9001DF474 /* InfoPlist.strings */,
+				FACF4912170730C9001DF474 /* main.m */,
+				FACF4914170730C9001DF474 /* TalkToRaspberryPi-Prefix.pch */,
+				FACF4918170730C9001DF474 /* Default.png */,
+				FACF491A170730C9001DF474 /* Default@2x.png */,
+				FACF491C170730C9001DF474 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FACF49AE17073BE1001DF474 /* ASIHttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				FACF49CB17073C0E001DF474 /* Reachability.h */,
+				FACF49CC17073C0E001DF474 /* Reachability.m */,
+				FACF49AF17073BE1001DF474 /* ASIAuthenticationDialog.h */,
+				FACF49B017073BE1001DF474 /* ASIAuthenticationDialog.m */,
+				FACF49B117073BE1001DF474 /* ASICacheDelegate.h */,
+				FACF49B217073BE1001DF474 /* ASIDataCompressor.h */,
+				FACF49B317073BE1001DF474 /* ASIDataCompressor.m */,
+				FACF49B417073BE1001DF474 /* ASIDataDecompressor.h */,
+				FACF49B517073BE1001DF474 /* ASIDataDecompressor.m */,
+				FACF49B617073BE1001DF474 /* ASIDownloadCache.h */,
+				FACF49B717073BE1001DF474 /* ASIDownloadCache.m */,
+				FACF49B817073BE1001DF474 /* ASIFormDataRequest.h */,
+				FACF49B917073BE1001DF474 /* ASIFormDataRequest.m */,
+				FACF49BA17073BE1001DF474 /* ASIHTTPRequest.h */,
+				FACF49BB17073BE1001DF474 /* ASIHTTPRequest.m */,
+				FACF49BC17073BE1001DF474 /* ASIHTTPRequestConfig.h */,
+				FACF49BD17073BE1001DF474 /* ASIHTTPRequestDelegate.h */,
+				FACF49BE17073BE1001DF474 /* ASIInputStream.h */,
+				FACF49BF17073BE1001DF474 /* ASIInputStream.m */,
+				FACF49C017073BE1001DF474 /* ASINetworkQueue.h */,
+				FACF49C117073BE1001DF474 /* ASINetworkQueue.m */,
+				FACF49C217073BE1001DF474 /* ASIProgressDelegate.h */,
+			);
+			path = ASIHttpRequest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACF4902170730C9001DF474 /* TalkToRaspberryPi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACF4926170730C9001DF474 /* Build configuration list for PBXNativeTarget "TalkToRaspberryPi" */;
+			buildPhases = (
+				FACF48FF170730C9001DF474 /* Sources */,
+				FACF4900170730C9001DF474 /* Frameworks */,
+				FACF4901170730C9001DF474 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkToRaspberryPi;
+			productName = TalkToRaspberryPi;
+			productReference = FACF4903170730C9001DF474 /* TalkToRaspberryPi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACF48FB170730C9001DF474 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Alex;
+			};
+			buildConfigurationList = FACF48FE170730C9001DF474 /* Build configuration list for PBXProject "TalkToRaspberryPi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FACF48FA170730C9001DF474;
+			productRefGroup = FACF4904170730C9001DF474 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACF4902170730C9001DF474 /* TalkToRaspberryPi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACF4901170730C9001DF474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACF4911170730C9001DF474 /* InfoPlist.strings in Resources */,
+				FACF4919170730C9001DF474 /* Default.png in Resources */,
+				FACF491B170730C9001DF474 /* Default@2x.png in Resources */,
+				FACF491D170730C9001DF474 /* Default-568h@2x.png in Resources */,
+				FACF4923170730C9001DF474 /* ViewController.xib in Resources */,
+				FA7F740117082B3700304E53 /* IMG_1218.png in Resources */,
+				FA7F740317082B3D00304E53 /* IMG_1218 2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACF48FF170730C9001DF474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACF4913170730C9001DF474 /* main.m in Sources */,
+				FACF4917170730C9001DF474 /* AppDelegate.m in Sources */,
+				FACF4920170730C9001DF474 /* ViewController.m in Sources */,
+				FACF49C317073BE1001DF474 /* ASIAuthenticationDialog.m in Sources */,
+				FACF49C417073BE1001DF474 /* ASIDataCompressor.m in Sources */,
+				FACF49C517073BE1001DF474 /* ASIDataDecompressor.m in Sources */,
+				FACF49C617073BE1001DF474 /* ASIDownloadCache.m in Sources */,
+				FACF49C717073BE1001DF474 /* ASIFormDataRequest.m in Sources */,
+				FACF49C817073BE1001DF474 /* ASIHTTPRequest.m in Sources */,
+				FACF49C917073BE1001DF474 /* ASIInputStream.m in Sources */,
+				FACF49CA17073BE1001DF474 /* ASINetworkQueue.m in Sources */,
+				FACF49CD17073C0E001DF474 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FACF490F170730C9001DF474 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACF4910170730C9001DF474 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FACF4921170730C9001DF474 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACF4922170730C9001DF474 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FACF4924170730C9001DF474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FACF4925170730C9001DF474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACF4927170730C9001DF474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkToRaspberryPi/TalkToRaspberryPi-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "TalkToRaspberryPi/TalkToRaspberryPi-Info.plist";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-fobjc-arc",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FACF4928170730C9001DF474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkToRaspberryPi/TalkToRaspberryPi-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				INFOPLIST_FILE = "TalkToRaspberryPi/TalkToRaspberryPi-Info.plist";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-fobjc-arc",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACF48FE170730C9001DF474 /* Build configuration list for PBXProject "TalkToRaspberryPi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACF4924170730C9001DF474 /* Debug */,
+				FACF4925170730C9001DF474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACF4926170730C9001DF474 /* Build configuration list for PBXNativeTarget "TalkToRaspberryPi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACF4927170730C9001DF474 /* Debug */,
+				FACF4928170730C9001DF474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FACF48FB170730C9001DF474 /* Project object */;
+}
