@@ -32,7 +32,7 @@
 {
     // Use when fetching text data
     NSString *responseString = [request responseString];
-    NSLog(@"Json数据返回:%@",responseString);
+    NSLog(@"数据返回:%@",responseString);
     // Use when fetching binary data
 }
 
