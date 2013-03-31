@@ -32,29 +32,13 @@
 {
     // Use when fetching text data
     NSString *responseString = [request responseString];
-    NSLog(@"Json数据返回%@",responseString);
+    NSLog(@"Json数据返回:%@",responseString);
     // Use when fetching binary data
 }
 
 - (void)requestFailed:(ASIHTTPRequest *)request
 {
     //NSError *error = [request error];
-}
-
-
-
-
-
-- (void)jsonRequestFininshed:(ASIFormDataRequest *)theRequest
-{
-    NSLog(@"Json数据返回%@",[theRequest responseString]);
-    
-}
-
-- (void)jsonRequestFailed:(ASIFormDataRequest *)theRequest
-{
-    // Obviously you should handle the error properly...
-    NSLog(@"%@",[theRequest error]);
 }
 
 
