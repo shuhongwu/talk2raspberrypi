@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "ASIHTTPRequest.h"
 #import "ASIFormDataRequest.h"
-#define IPADDRESS @"http://192.168.1.117:8000"
+#define IPADDRESS @"http://192.168.226.148:8000"
 
 @interface ViewController (){
 
@@ -28,7 +28,7 @@
 
 
 
-- (void)requestFinished:(ASIHTTPRequest *)request
+- (void)jsonRequestFininshed:(ASIHTTPRequest *)request
 {
     // Use when fetching text data
     NSString *responseString = [request responseString];
@@ -36,7 +36,7 @@
     // Use when fetching binary data
 }
 
-- (void)requestFailed:(ASIHTTPRequest *)request
+- (void)jsonRequestFailed:(ASIHTTPRequest *)request
 {
     //NSError *error = [request error];
 }
