@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "ASIHTTPRequest.h"
 #import "ASIFormDataRequest.h"
-#define IPADDRESS @"http://192.168.226.148:8000"
+#define IPADDRESS @"http://192.168.226.85:8000"
 
 @interface ViewController (){
 
